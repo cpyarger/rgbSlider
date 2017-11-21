@@ -9,8 +9,6 @@ it sends messages such as
 To change the ESP32 you are connecting to.
 change line  22 of index.js
 
-client.connect(PORT, 'IP ADDRESS', function() {
+```client.connect(PORT, 'IP ADDRESS', function() {```
 ex...
-client.connect(23, '192.168.42.152', function() {
-
-# rgbSlider
+```client.connect(23, '192.168.42.152', function() {```
