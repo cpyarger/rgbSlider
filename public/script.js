@@ -1,4 +1,4 @@
-/* From the JQuery UI Slider color picker demo: http://jqueryui.com/slider/#colorpicker */  
+/* From the JQuery UI Slider color picker demo: http://jqueryui.com/slider/#colorpicker */
 /* Slightly modified to call the services and pass the values */
 function hexFromRGB(r, g, b) {
   var hex = [
@@ -29,7 +29,7 @@ $(function() {
   $( "#red, #green, #blue" ).slider({
     orientation: "horizontal",
     range: "min",
-    max: 255,
+    max: 65535,
     value: 0,
     slide: refreshSwatch,
   });

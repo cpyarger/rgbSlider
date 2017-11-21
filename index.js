@@ -5,9 +5,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 
-var RED_GPIO_PIN = 17;
-var GREEN_GPIO_PIN = 18;
-var BLUE_GPIO_PIN = 22;
+
 
 
 //Serve public content - basically any file in the public folder will be available on the server.
